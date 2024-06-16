@@ -34,7 +34,7 @@ class LoginActivity : AppCompatActivity() {
 
         binding.apply {
             btnRegister.apply {
-                text = htmlStringFormat(this@LoginActivity, "Don't have an account?", "Sign In")
+                text = htmlStringFormat(this@LoginActivity, "Sudah Punya Akun?", "Masuk")
                 setOnClickListener {
                     startActivity(Intent(this@LoginActivity, RegisterActivity::class.java))
                 }
